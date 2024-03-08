@@ -6,9 +6,8 @@ AWS Provider configured in your root TF / OpenTofu module.
 
 # Usage
 ```hcl
-
 module "mailgun" {
-  source = "github.com/docside-app/terraform-module-mailgun-route53ref=v0.1.0"
+  source = "github.com/docside-app/terraform-module-mailgun-route53?ref=v0.1.0"
 
   mailgun_subdomain = "example.com"
   zone_id = "YOURROUTE53ZONEID"
